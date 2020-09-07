@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/xLiAd.Limiter/v16
+/xLiAd.Limiter.Abstractions/bin/Debug/netstandard2.0
+/xLiAd.Limiter.Abstractions/obj
