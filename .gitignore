@@ -5,3 +5,9 @@
 /.vs/xLiAd.Limiter/v16
 /xLiAd.Limiter.Abstractions/bin/Debug/netstandard2.0
 /xLiAd.Limiter.Abstractions/obj
+/xLiAd.Limiter.Core/bin/Debug/netstandard2.0
+/xLiAd.Limiter.Core/obj
+/xLiAd.Limiter.Memory/bin/Debug/netstandard2.0
+/xLiAd.Limiter.Memory/obj
+/xLiAd.Limiter.Tests/bin/Debug/netcoreapp3.1
+/xLiAd.Limiter.Tests/obj

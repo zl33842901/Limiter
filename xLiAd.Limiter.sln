@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xLiAd.Limiter.Abstractions", "xLiAd.Limiter.Abstractions\xLiAd.Limiter.Abstractions.csproj", "{2F7BDF14-481C-44CD-88BA-A0018B27705B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xLiAd.Limiter.Abstractions", "xLiAd.Limiter.Abstractions\xLiAd.Limiter.Abstractions.csproj", "{2F7BDF14-481C-44CD-88BA-A0018B27705B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xLiAd.Limiter.Core", "xLiAd.Limiter.Core\xLiAd.Limiter.Core.csproj", "{F271089E-C6A2-49FC-B99F-3827E543B526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xLiAd.Limiter.Memory", "xLiAd.Limiter.Memory\xLiAd.Limiter.Memory.csproj", "{AD941E50-7C60-429D-96EE-BD0F744FBEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xLiAd.Limiter.Tests", "xLiAd.Limiter.Tests\xLiAd.Limiter.Tests.csproj", "{8B1EEC6A-B449-47F9-A559-64F0F839C09F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2F7BDF14-481C-44CD-88BA-A0018B27705B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7BDF14-481C-44CD-88BA-A0018B27705B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7BDF14-481C-44CD-88BA-A0018B27705B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F271089E-C6A2-49FC-B99F-3827E543B526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F271089E-C6A2-49FC-B99F-3827E543B526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F271089E-C6A2-49FC-B99F-3827E543B526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F271089E-C6A2-49FC-B99F-3827E543B526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD941E50-7C60-429D-96EE-BD0F744FBEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD941E50-7C60-429D-96EE-BD0F744FBEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD941E50-7C60-429D-96EE-BD0F744FBEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD941E50-7C60-429D-96EE-BD0F744FBEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1EEC6A-B449-47F9-A559-64F0F839C09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1EEC6A-B449-47F9-A559-64F0F839C09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1EEC6A-B449-47F9-A559-64F0F839C09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1EEC6A-B449-47F9-A559-64F0F839C09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
