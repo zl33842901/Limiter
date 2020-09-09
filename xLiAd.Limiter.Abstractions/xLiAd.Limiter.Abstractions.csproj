@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>张磊</Authors>
+    <Company>张磊 xLiAd</Company>
+    <Description>接口请求限制切片</Description>
+    <Copyright>copyright 张磊 2020</Copyright>
+    <PackageProjectUrl>https://github.com/zl33842901/Limiter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zl33842901/Limiter</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

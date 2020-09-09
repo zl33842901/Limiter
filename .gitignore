@@ -11,3 +11,13 @@
 /xLiAd.Limiter.Memory/obj
 /xLiAd.Limiter.Tests/bin/Debug/netcoreapp3.1
 /xLiAd.Limiter.Tests/obj
+/.vs/xLiAd.Limiter/DesignTimeBuild
+/xLiAd.Limiter.Abstractions/bin/Release/netstandard2.0
+/xLiAd.Limiter.Abstractions/nupkgs
+/xLiAd.Limiter.Abstractions/nupkgsSymb
+/xLiAd.Limiter.Core/bin/Release/netstandard2.0
+/xLiAd.Limiter.Core/nupkgs
+/xLiAd.Limiter.Core/nupkgsSymb
+/xLiAd.Limiter.Memory/bin/Release/netstandard2.0
+/xLiAd.Limiter.Memory/nupkgs
+/xLiAd.Limiter.Memory/nupkgsSymb

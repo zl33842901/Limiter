@@ -29,7 +29,7 @@ namespace xLiAd.Limiter.Core
                 int n = list?.Count(x => (DateTime.Now - x).TotalSeconds < policy.Key) ?? 0;
                 if (n >= policy.Value)
                 {
-                    throw new Exception("此操作超过次数限制！");
+                    throw new OperationLimitException("此操作超过次数限制！");
                 }
                 else
                 {

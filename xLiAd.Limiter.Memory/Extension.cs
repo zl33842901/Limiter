@@ -9,10 +9,8 @@ namespace xLiAd.Limiter.Memory
     {
         public static IServiceCollection AddLimiterMemory(this IServiceCollection services)
         {
+            Core.Extension.AddLimiter(services);
             services.AddSingleton<ICacher, MemoryCacher>();
-            services.AddSingleton<IKeyProvider, DefaultKeyProvider>();
-            services.AddSingleton<ILimitPolicyProvider, DefaultLimitPolicyProvider>();
-            services.AddHttpContextAccessor();
 
             return services;
         }

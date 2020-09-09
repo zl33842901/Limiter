@@ -25,7 +25,7 @@ namespace xLiAd.Limiter.Core
                     result = parameters[2]?.ToString();
                     break;
                 case KeyTypeEnum.AllParam:
-                    result = string.Join("-", parameters.Select(x => x.ToString()));
+                    result = string.Join("-", parameters.Select(x => ConvertString(x)));
                     break;
                 case KeyTypeEnum.InParam:
                     result = GetInParam(parameters, inParamKey);
@@ -40,10 +40,22 @@ namespace xLiAd.Limiter.Core
             return result;
         }
 
+        private string ConvertString(object o)
+        {
+            return o?.ToString() ?? "nullvalue";
+        }
+
         private string GetInParam(object[] parameters, string inParamKey)
         {
-            var pkArray = inParamKey.Split(':');
-            var i = Convert.ToInt32(pkArray[0].ToString());
+            var strArray = inParamKey.Split(',', ';');
+            var result = string.Join("-", strArray.Select(x => GetInParamSingle(parameters, x)));
+            return result;
+        }
+
+        private string GetInParamSingle(object[] parameters, string inParamKeyOne)
+        {
+            var pkArray = inParamKeyOne.Split(':');
+            var i = Convert.ToInt32(pkArray[0].ToString()) - 1;
             var obj = parameters[i];
             foreach(var s in pkArray.Skip(1))
             {
