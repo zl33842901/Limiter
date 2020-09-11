@@ -8,6 +8,7 @@ using System.Linq;
 
 namespace xLiAd.Limiter.Core
 {
+    [AttributeUsage(AttributeTargets.Class| AttributeTargets.Method, AllowMultiple =true, Inherited =true)]
     public class LimiterAttribute : AbstractInterceptorAttribute
     {
         public KeyTypeEnum KeyType { get; set; }
