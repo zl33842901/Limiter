@@ -17,7 +17,7 @@ namespace xLiAd.Limiter.Core
             .Union(HourSuffix.ToDictionary(x => x, x => 3600)).ToDictionary(x => x.Key, x => x.Value);
         public LimitPolicy ParsePolicy(string str)
         {
-            var strArray = str.Split(',', ';');
+            var strArray = str.Split(',', ';').Where(x => !string.IsNullOrEmpty(x));
             LimitPolicy result = new LimitPolicy();
             foreach(var s in strArray)
             {

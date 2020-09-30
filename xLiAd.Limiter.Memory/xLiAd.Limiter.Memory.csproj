@@ -8,7 +8,7 @@
     <Copyright>copyright 张磊 2020</Copyright>
     <PackageProjectUrl>https://github.com/zl33842901/Limiter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zl33842901/Limiter</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
